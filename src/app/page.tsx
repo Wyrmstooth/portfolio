@@ -3,11 +3,11 @@ import richard from "@/../public/richard.png";
 
 export default function Home() {
   return (
-    <main className=" ml-16 mr-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between">
-      <div className="max-w-xl mt-4 lg:mt-0">
+    <main className="ml-auto mr-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between">
+      <div className="max-w-xl lg:ml-16 mt-4 lg:mt-0">
         <div className="text-5xl sm:text-4xl lg:text-7xl font-extrabold mb-4 lg:mb-8 flex flex-col">
           <span> Hi! I am</span>
-          <span className=" text-2xl bg-blue-600 text-white p-4 rounded-full mt-2 absolute ml-[300px] ">
+          <span className=" text-2xl bg-blue-600 text-white p-4 rounded-full absolute ml-[300px] ">
             Web Developer
           </span>
           <span>Umer Jahangir</span>
@@ -26,7 +26,7 @@ export default function Home() {
             Clients on work worldwide
           </p>
         </div>
-        <div className="flex flex-col lg:flex-row mb-16 lg:mb-32">
+        <div className="flex flex-col lg:flex-row gap-6 mb-16 lg:mb-32">
           <div>
             <p className="text-lg sm:text-2xl lg:text-3xl font-bold">572+</p>
             <p className="w-24 sm:w-36 lg:w-48 text-base sm:text-lg lg:text-xl mb-4 lg:mb-8">
